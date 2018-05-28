@@ -1,0 +1,141 @@
+.btn{
+    
+}
+
+
+/*btn*/
+
+
+/*color*/
+
+.color-primary{
+    background-color: darkblue;
+}
+
+.color-primary:hover{
+    background-color:black;
+}
+
+
+.color-caution{
+    background-color: red;
+}
+
+.color-caution:hover{
+    background-color:darkred
+}
+
+
+/*size*/
+
+.size-small{
+    height: 32px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+
+.size-large{
+    height: 40px;
+    min-width: 100px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+
+
+/*font-color*/
+
+.font-white{
+    color: white;
+    
+}
+
+;
+/*font-size*/
+
+.font-large{
+    font-size: 14px;
+}
+
+.font-small{
+    font-size: 12px;
+}
+
+
+
+
+
+.btn-primary-large{
+    font-size: 14px;
+    height: 40px;
+    min-width: 100px;
+    background-color: darkblue;
+    color: white;
+
+
+
+}
+
+
+.bar{
+    position: relative;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: darkgray;
+    margin-top:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+    
+}
+
+
+
+
+
+.left{    
+    
+    position: absolute;
+    top: 50%;
+    margin-top: -16px; 
+    
+
+}
+
+
+.left button:nth-child(2){
+    
+}
+
+
+
+
+.right{
+
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -16px; 
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
