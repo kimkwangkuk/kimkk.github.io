@@ -3,8 +3,11 @@
 }
 
 
+/*------------------------------------------------------------------------*/
+
 /*btn*/
 
+/*------------------------------------------------------------------------*/
 
 /*color*/
 
@@ -44,15 +47,33 @@
 
 
 
+/*------------------------------------------------------------------------*/
+
+/*font*/
+
+/*------------------------------------------------------------------------*/
+
+
+
+
+
 /*font-color*/
 
 .font-white{
     color: white;
-    
 }
 
-;
+
+
 /*font-size*/
+
+.font-larger{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
 
 .font-large{
     font-size: 14px;
@@ -65,49 +86,82 @@
 
 
 
+/*------------------------------------------------------------------------*/
 
-.btn-primary-large{
-    font-size: 14px;
-    height: 40px;
-    min-width: 100px;
-    background-color: darkblue;
-    color: white;
+/*bar*/
+
+/*------------------------------------------------------------------------*/
 
 
 
+.nav{
+    height: 90px;
+    background-color: antiquewhite;
+    padding-left: 30px;
+    
 }
 
 
 .bar{
     position: relative;
     height: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: darkgray;
-    margin-top:30px;
+   
+    background-color: white;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
     padding-left: 20px;
     padding-right: 20px;
-    
+    }
 
-    
+
+
+.info-title{
+    position: relative;
+    height: 60px;
+    background-color: #e0e0e0;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 20px;
+}
+
+.info-title .font-larger{
+    position: absolute;
+    top: 50%;
+    margin-top: -9px; 
+}
+
+.info-title .font-small{
+    position: absolute;
+    top: 90%;
+    margin-top: -9px; 
+    width: 300px;
 }
 
 
+
+
+.info-area{
+    margin-top: -1px;
+    background-color: #e0e0e0;
+    border-width: 1px;
+    border-style: solid;
+    padding: 30px;
+    
+}
+
+/*------------------------------------------------------------------------*/
+
+/*position*/
+
+/*------------------------------------------------------------------------*/
 
 
 
 .left{    
-    
     position: absolute;
     top: 50%;
     margin-top: -16px; 
-    
-
-}
-
-
-.left button:nth-child(2){
-    
 }
 
 
@@ -126,7 +180,22 @@
 
 
 
+/*------------------------------------------------------------------------*/
 
+/*test*/
+
+/*------------------------------------------------------------------------*/
+
+
+
+
+
+.btn-primary-large{
+    font-size: 14px;
+    height: 40px;
+    min-width: 100px;
+    background-color: darkblue;
+    color: white;
 
 
 
