@@ -1,17 +1,5 @@
 /*------------------------------------------------------------------------*/
 
-.navbar {
-    position: relative;
-    top: 0px;
-    width: 100%;
-    border-bottom: 2px solid rgba(245, 245, 245, 1);
-    background-color: white;
-    padding-left: 150px;
-
-
-}
-
-
 .area-top {
     position: relative;
     animation-name: example;
@@ -30,14 +18,50 @@
 }
 
 
-.logo {
-    width: 40px;
+.navbar {
+    border-bottom: 2px solid rgba(245, 245, 245, 1);
+    background-color: white;
+}
+
+.navbar_menu {
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.navbar_logo {
+    position: relative;
+    display: inline-block;
+    height: 25px;
+}
 
+.navbar_group {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    height: 25px;
 
+}
+
+.navbar_menu_item, .navbar_menu_item:visited {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    top: 4px;
+    height: 35px;    
+    margin-left: 30px;
+}
+
+.navbar_menu_item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 
 .contents {
@@ -65,8 +89,6 @@
     border: 1px solid #000;
     border-top-style: none;
     z-index: 1;
-
-
 
 }
 
@@ -170,13 +192,13 @@
     display: block;
     background-color: white;
     padding: 10px 14px 10px 14px;
-    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border: 1px solid rgba(245, 245, 245, 1);
     width: 350px;
 }
 
 
 .list_item {
-    height: 60px;
+    height: 50px;
 }
 
 .list_item_img {
@@ -186,8 +208,8 @@
 
 
 .list_item_info {
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 8px;
+    padding-left: 14px;
     display: inline-block;
     position: absolute;
 
@@ -196,14 +218,23 @@
 
 .list button {
     position: absolute;
-    top: 25px;
+    top: 18px;
     right: 0px;
     margin-right: 14px;
 
 }
 
 
+.card button {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 
+
+
+
+}
 
 
 
@@ -293,9 +324,6 @@
 
 
 
-
-
-
 .btn-primary {
     background-color: #4769F7;
     border: 1px solid black;
@@ -363,7 +391,6 @@
 
 
 
-/*------------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------------*/
 
@@ -373,15 +400,23 @@
 
 /*bem test*/
 
-.list_item_info_title {
+.list_item_info_title,
+.card_info_title {
     font-size: 14px;
+    font-weight: 500;
     color: black;
+    letter-spacing: -0.2px;
 }
 
-.list_item_info_subtitle {
+.list_item_info_subtitle,
+.card_info_subtitle {
     font-size: 12px;
     color: gray;
+    letter-spacing: -0.3px;
+    margin-top: 6px;
 }
+
+
 
 
 /*------------------------------------------------------------------------*/
@@ -416,12 +451,15 @@
 .font-xxlarge {
     font-size: 60px;
     font-weight: 900;
+    letter-spacing: -1px;
 
 }
 
 
 .font-xlarge {
     font-size: 30px;
+    letter-spacing: -0.4px;
+    line-height: 45px;
 
 }
 
@@ -557,3 +595,28 @@ label {
 .group {
     display: inline-block;
 }
+
+.card {
+    width: 200px;
+    background-color: white;
+    border: 1px solid rgba(240, 240, 240, 1);
+    position: relative;
+}
+
+.card_img {
+    width: 200px;
+    position: relative;
+
+}
+
+.card_info {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+body {
+    margin: 0px;
+}
+
