@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>kimkpjemk</title>
+    <meta content="kimkk's site">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+     <script> 
+    $(function(){
+      $("#sidebar").load("/include/sidebar.html"); 
+      $("#content").load("/include/content.html"); 
+    });
+    
+    $(function(){
+            $("#btn").click(function(){
+            $("#content").load("/include/content1.html");
+            });
+        });
+    
+    </script> 
+    
+
+
+    
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+
+</head>
+
+  <body>
+  
+      <div id="sidebar"></div>
+      <div id="content"></div>
+   
+   </body>
+</html>
